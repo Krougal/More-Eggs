@@ -1,0 +1,7 @@
+<Krougal>
+
+	<!-- *** Bird_Nest -->
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='foodEgg']" name="count">1,2</setattribute>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='foodEgg']/@loot_prob_template">high</set>
+
+</Krougal>
