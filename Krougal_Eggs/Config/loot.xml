@@ -1,7 +1,14 @@
 <Krougal>
 
-	<!-- *** Bird_Nest -->
-	<setattribute xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='foodEgg']" name="count">1,2</setattribute>
-	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='foodEgg']/@loot_prob_template">high</set>
+<!-- Creates new loot group for an extra egg in the BirdNest group. -->
+	<insertAfter xpath="//lootgroup[@name='groupBirdNest02']">
+		<lootgroup name="groupBirdNest03" >
+			<item name="foodEgg" count="1" />
+		</lootgroup>
+	</insertAfter>
+<!-- Adds loot group BirdNest03 to the BirdNest group. -->	
+	<insertAfter xpath="//lootgroup[@name='groupBirdNest']/item[@group='groupBirdNest02']">
+		<item group="groupBirdNest03" loot_prob_template="high" />
+	</insertAfter>	
 
 </Krougal>
