@@ -1,1 +1,1 @@
-Adds a guaranteed 1 egg to birds nests, with an unchanged chance of 1-2 more eggs.
+Adds a 50% chance to get an extra egg per nest.
