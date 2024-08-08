@@ -3,7 +3,7 @@
 <!-- Creates new loot group for an extra egg in the BirdNest group. -->
 	<insertAfter xpath="//lootgroup[@name='groupBirdNest02']">
 		<lootgroup name="groupBirdNest03" >
-			<item name="foodEgg" count="1" />
+			<item name="foodEgg" count="0,1" />
 		</lootgroup>
 	</insertAfter>
 <!-- Adds loot group BirdNest03 to the BirdNest group. -->	
